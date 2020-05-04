@@ -1,0 +1,9 @@
+ tls: {
+  session-timeout: 600;
+  ydbgui: {
+    format: "PEM";
+    cert: "/opt/yottadb/gui/ydbgui.pem";
+    key: "/opt/yottadb/gui/ydbgui.key";
+    verify-mode: "SSL_VERIFY_NONE";
+  };
+};
